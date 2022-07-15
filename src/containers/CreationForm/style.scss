@@ -1,0 +1,28 @@
+@import 'styles/variables.scss';
+
+.noti-form-container {
+  width: 50%;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: $color-main;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  .form-header {
+    background-color: $color-dark;
+    text-align: center;
+
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 12px;
+    color: white;
+
+    border-radius: 5px 5px 0 0;
+  }
+
+  .form-content {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
